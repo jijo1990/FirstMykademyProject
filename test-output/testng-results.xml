@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-18T16:19:49 IST" name="Suite1" finished-at="2022-07-18T16:24:18 IST" duration-ms="268701">
+    <groups>
+      <group name="smoke">
+        <method signature="MykademyTestSuite.verifySignUpPage(java.util.Map)[pri:1, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="verifySignUpPage" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.verifyLoginCheck(java.util.Map)[pri:2, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="verifyLoginCheck" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.moveToLearnerModule()[pri:3, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="moveToLearnerModule" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.verifyLearnerAdd(java.util.Map)[pri:4, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="verifyLearnerAdd" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.OtherLearnerModuleOperations(java.util.Map)[pri:5, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="OtherLearnerModuleOperations" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.roleManagementModule(java.util.Map)[pri:6, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="roleManagementModule" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.courseCreationModuleFirstSteps(java.util.Map)[pri:7, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="courseCreationModuleFirstSteps" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.courseCreationModuleOperations(java.util.Map)[pri:8, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="courseCreationModuleOperations" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.LiveClassCreationOperations(java.util.Map)[pri:9, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="LiveClassCreationOperations" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.AssessmentCreationOperations(java.util.Map)[pri:10, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="AssessmentCreationOperations" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.AssignmentCreationOperations(java.util.Map)[pri:11, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="AssignmentCreationOperations" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.HTMLCreationOperations(java.util.Map)[pri:12, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="HTMLCreationOperations" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.ScormCreationOperations(java.util.Map)[pri:13, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="ScormCreationOperations" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.YouTubeCreationOperations(java.util.Map)[pri:14, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="YouTubeCreationOperations" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.SurveyCreationOperations(java.util.Map)[pri:15, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="SurveyCreationOperations" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.CourseSettingsOperations(java.util.Map)[pri:16, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="CourseSettingsOperations" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.ActivateCourseOperations()[pri:17, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="ActivateCourseOperations" class="mykademy.tests.MykademyTestSuite"/>
+        <method signature="MykademyTestSuite.DeleteCourseOperations(java.util.Map)[pri:18, instance:mykademy.tests.MykademyTestSuite@7b324585]" name="DeleteCourseOperations" class="mykademy.tests.MykademyTestSuite"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-07-18T16:19:49 IST" name="smoke" finished-at="2022-07-18T16:24:18 IST" duration-ms="268701">
+      <class name="mykademy.tests.MykademyTestSuite">
+        <test-method is-config="true" signature="initSuite()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:19:49 IST" name="initSuite" finished-at="2022-07-18T16:19:49 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSuite -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:19:49 IST" name="initDriver" finished-at="2022-07-18T16:19:52 IST" duration-ms="3172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:19:52 IST" name="startReport" finished-at="2022-07-18T16:19:52 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.verifySignUpPage(java.util.Map) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:19:52 IST" name="initApp" finished-at="2022-07-18T16:19:52 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="verifySignUpPage(java.util.Map)[pri:1, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:19:52 IST" name="verifySignUpPage" data-provider="getData" finished-at="2022-07-18T16:19:58 IST" duration-ms="5211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{signUpUsername=Jijo Joseph 10, signUpEmail=jijo.joseph+10@mykademy.com, signUpPhoneNumber=8888899999, signUpPassword=Password@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPage -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:19:58 IST" name="endReport" finished-at="2022-07-18T16:19:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:19:58 IST" name="startReport" finished-at="2022-07-18T16:19:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.verifyLoginCheck(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:19:58 IST" name="initApp" finished-at="2022-07-18T16:19:58 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="verifyLoginCheck(java.util.Map)[pri:2, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:19:58 IST" name="verifyLoginCheck" data-provider="getData" finished-at="2022-07-18T16:20:01 IST" duration-ms="3581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=thanveer.a+25@enfintechnologies.com, password=123456ab}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginCheck -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:01 IST" name="endReport" finished-at="2022-07-18T16:20:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:01 IST" name="startReport" finished-at="2022-07-18T16:20:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.moveToLearnerModule() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:01 IST" name="initApp" finished-at="2022-07-18T16:20:01 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="moveToLearnerModule()[pri:3, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:01 IST" name="moveToLearnerModule" finished-at="2022-07-18T16:20:04 IST" duration-ms="2807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToLearnerModule -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:04 IST" name="endReport" finished-at="2022-07-18T16:20:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:04 IST" name="startReport" finished-at="2022-07-18T16:20:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.verifyLearnerAdd(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:04 IST" name="initApp" finished-at="2022-07-18T16:20:04 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="verifyLearnerAdd(java.util.Map)[pri:4, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:04 IST" name="verifyLearnerAdd" data-provider="getData" finished-at="2022-07-18T16:20:06 IST" duration-ms="1753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{stdName=Jijo Joseph 6902, stdEmail=jijo.joseph+6902@mykademy.com, stdPhone=08988885479, stdPassword=Passowrd@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLearnerAdd -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:06 IST" name="endReport" finished-at="2022-07-18T16:20:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:06 IST" name="startReport" finished-at="2022-07-18T16:20:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.verifyLearnerAdd(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:06 IST" name="initApp" finished-at="2022-07-18T16:20:06 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="verifyLearnerAdd(java.util.Map)[pri:4, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:06 IST" name="verifyLearnerAdd" data-provider="getData" finished-at="2022-07-18T16:20:07 IST" duration-ms="1505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{stdName=Jijo Joseph 6901, stdEmail=jijo.joseph+6901@mykademy.com, stdPhone=08988885477, stdPassword=Passowrd@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLearnerAdd -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:07 IST" name="endReport" finished-at="2022-07-18T16:20:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:07 IST" name="initApp" finished-at="2022-07-18T16:20:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:07 IST" name="startReport" finished-at="2022-07-18T16:20:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.OtherLearnerModuleOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="OtherLearnerModuleOperations(java.util.Map)[pri:5, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:07 IST" name="OtherLearnerModuleOperations" data-provider="getData" finished-at="2022-07-18T16:20:29 IST" duration-ms="21421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchUsers=Jijo Joseph 6902, Jijo Joseph 6901}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OtherLearnerModuleOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:29 IST" name="endReport" finished-at="2022-07-18T16:20:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:29 IST" name="startReport" finished-at="2022-07-18T16:20:29 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.roleManagementModule(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:29 IST" name="initApp" finished-at="2022-07-18T16:20:29 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="roleManagementModule(java.util.Map)[pri:6, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:29 IST" name="roleManagementModule" data-provider="getData" finished-at="2022-07-18T16:20:47 IST" duration-ms="18756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{roleName=New Test Role29}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleManagementModule -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:47 IST" name="endReport" finished-at="2022-07-18T16:20:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:47 IST" name="initApp" finished-at="2022-07-18T16:20:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:47 IST" name="startReport" finished-at="2022-07-18T16:20:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.courseCreationModuleFirstSteps(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="courseCreationModuleFirstSteps(java.util.Map)[pri:7, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:48 IST" name="courseCreationModuleFirstSteps" data-provider="getData" finished-at="2022-07-18T16:20:59 IST" duration-ms="11349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{courseName=Automation Custom Course 10.0, sectionName=New}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseCreationModuleFirstSteps -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:59 IST" name="endReport" finished-at="2022-07-18T16:20:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:59 IST" name="initApp" finished-at="2022-07-18T16:20:59 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:59 IST" name="startReport" finished-at="2022-07-18T16:20:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.courseCreationModuleOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="courseCreationModuleOperations(java.util.Map)[pri:8, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:20:59 IST" name="courseCreationModuleOperations" data-provider="getData" finished-at="2022-07-18T16:21:08 IST" duration-ms="8833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fileName=DOC.doc, lectureTitle=New Document Doc 1, lectureDescription=Automation Doc File}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseCreationModuleOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:08 IST" name="endReport" finished-at="2022-07-18T16:21:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:08 IST" name="startReport" finished-at="2022-07-18T16:21:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.courseCreationModuleOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:08 IST" name="initApp" finished-at="2022-07-18T16:21:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="courseCreationModuleOperations(java.util.Map)[pri:8, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:08 IST" name="courseCreationModuleOperations" data-provider="getData" finished-at="2022-07-18T16:21:17 IST" duration-ms="9008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fileName=DOCX.docx, lectureTitle=New Document Docx 1, lectureDescription=Automation Docx File}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseCreationModuleOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:17 IST" name="endReport" finished-at="2022-07-18T16:21:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:17 IST" name="startReport" finished-at="2022-07-18T16:21:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.courseCreationModuleOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:17 IST" name="initApp" finished-at="2022-07-18T16:21:17 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="courseCreationModuleOperations(java.util.Map)[pri:8, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:17 IST" name="courseCreationModuleOperations" data-provider="getData" finished-at="2022-07-18T16:21:25 IST" duration-ms="8245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fileName=pptx2.pptx, lectureTitle=New Document Pptx 1, lectureDescription=Automation Pptx File}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseCreationModuleOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:25 IST" name="endReport" finished-at="2022-07-18T16:21:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:25 IST" name="startReport" finished-at="2022-07-18T16:21:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.courseCreationModuleOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:25 IST" name="initApp" finished-at="2022-07-18T16:21:25 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="courseCreationModuleOperations(java.util.Map)[pri:8, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:25 IST" name="courseCreationModuleOperations" data-provider="getData" finished-at="2022-07-18T16:21:33 IST" duration-ms="8016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fileName=Sample pdf.pdf, lectureTitle=New Document Pdf 1, lectureDescription=Automation Pdf File}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseCreationModuleOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:33 IST" name="endReport" finished-at="2022-07-18T16:21:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:33 IST" name="startReport" finished-at="2022-07-18T16:21:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.courseCreationModuleOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:33 IST" name="initApp" finished-at="2022-07-18T16:21:33 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="courseCreationModuleOperations(java.util.Map)[pri:8, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:33 IST" name="courseCreationModuleOperations" data-provider="getData" finished-at="2022-07-18T16:21:41 IST" duration-ms="8183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fileName=EXCEL.xls, lectureTitle=New Document xls 1, lectureDescription=Automation xls File}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseCreationModuleOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:41 IST" name="endReport" finished-at="2022-07-18T16:21:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:41 IST" name="startReport" finished-at="2022-07-18T16:21:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.courseCreationModuleOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:41 IST" name="initApp" finished-at="2022-07-18T16:21:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="courseCreationModuleOperations(java.util.Map)[pri:8, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:41 IST" name="courseCreationModuleOperations" data-provider="getData" finished-at="2022-07-18T16:21:49 IST" duration-ms="7380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fileName=XLSX.xlsx, lectureTitle=New Document xlsx 1, lectureDescription=Automation xlsx File}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseCreationModuleOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:49 IST" name="endReport" finished-at="2022-07-18T16:21:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:49 IST" name="startReport" finished-at="2022-07-18T16:21:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.courseCreationModuleOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:49 IST" name="initApp" finished-at="2022-07-18T16:21:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="courseCreationModuleOperations(java.util.Map)[pri:8, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:21:49 IST" name="courseCreationModuleOperations" data-provider="getData" finished-at="2022-07-18T16:22:05 IST" duration-ms="16075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fileName=MP3.mp3, lectureTitle=New Document Mp3 1, lectureDescription=Automation Mp3 File}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseCreationModuleOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:22:05 IST" name="endReport" finished-at="2022-07-18T16:22:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:22:05 IST" name="initApp" finished-at="2022-07-18T16:22:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:22:05 IST" name="startReport" finished-at="2022-07-18T16:22:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.LiveClassCreationOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="LiveClassCreationOperations(java.util.Map)[pri:9, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:22:05 IST" name="LiveClassCreationOperations" data-provider="getData" finished-at="2022-07-18T16:22:14 IST" duration-ms="9838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{liveLectureName=Live Session 1.0, liveSessionTag=AutomationTag One, liveSessionAgenda=Automation Test Live Agenda, liveSessionDescription=Automation session description}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiveClassCreationOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:22:14 IST" name="endReport" finished-at="2022-07-18T16:22:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:22:14 IST" name="startReport" finished-at="2022-07-18T16:22:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.AssessmentCreationOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:22:14 IST" name="initApp" finished-at="2022-07-18T16:22:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="AssessmentCreationOperations(java.util.Map)[pri:10, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:22:14 IST" name="AssessmentCreationOperations" data-provider="getData" finished-at="2022-07-18T16:22:52 IST" duration-ms="37361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{assessmentName=Automation Test 1, assessmentDescription=Automation assessment test 1, totalMarkForAssessment=10, submissionTestMessage=Thank You For Attending The Assessment, passMarkPercentage=10, passMessage=PASS, failMessage=FAIL, attemptLimitCount=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssessmentCreationOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:22:52 IST" name="endReport" finished-at="2022-07-18T16:22:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:22:52 IST" name="startReport" finished-at="2022-07-18T16:22:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.AssignmentCreationOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:22:52 IST" name="initApp" finished-at="2022-07-18T16:22:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="AssignmentCreationOperations(java.util.Map)[pri:11, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:22:52 IST" name="AssignmentCreationOperations" data-provider="getData" finished-at="2022-07-18T16:23:02 IST" duration-ms="9849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{assignmentName=Automation Assignment title, assignmentDescription=Automation Assignment description, assignmentTotalMark=30, assignmentWorldLimit=25000, resubmissionDateCount=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignmentCreationOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:02 IST" name="endReport" finished-at="2022-07-18T16:23:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:02 IST" name="initApp" finished-at="2022-07-18T16:23:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:02 IST" name="startReport" finished-at="2022-07-18T16:23:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.HTMLCreationOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="HTMLCreationOperations(java.util.Map)[pri:12, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:02 IST" name="HTMLCreationOperations" data-provider="getData" finished-at="2022-07-18T16:23:08 IST" duration-ms="6255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{htmlContentTitle=Automation Html lecture 1, htmlContentDescription=Automation HTML lecture content description.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HTMLCreationOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:08 IST" name="endReport" finished-at="2022-07-18T16:23:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:08 IST" name="initApp" finished-at="2022-07-18T16:23:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:08 IST" name="startReport" finished-at="2022-07-18T16:23:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.ScormCreationOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="ScormCreationOperations(java.util.Map)[pri:13, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:08 IST" name="ScormCreationOperations" data-provider="getData" finished-at="2022-07-18T16:23:32 IST" duration-ms="23632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lectureNameFld=Automation Scorm Lecture, lectureDescriptionFld=Automation Scorm Lecture content}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScormCreationOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:32 IST" name="endReport" finished-at="2022-07-18T16:23:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:32 IST" name="startReport" finished-at="2022-07-18T16:23:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.YouTubeCreationOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:32 IST" name="initApp" finished-at="2022-07-18T16:23:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="YouTubeCreationOperations(java.util.Map)[pri:14, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:32 IST" name="YouTubeCreationOperations" data-provider="getData" finished-at="2022-07-18T16:23:36 IST" duration-ms="4851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{youTubeContentTitle=Automation YouTube Lecture, youTubeContentDescription=Automation Youtube Video Lecture, enterYouTubeUrl=https://www.youtube.com/watch?v=mOAXEQevCAE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YouTubeCreationOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:36 IST" name="endReport" finished-at="2022-07-18T16:23:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:36 IST" name="startReport" finished-at="2022-07-18T16:23:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.SurveyCreationOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:36 IST" name="initApp" finished-at="2022-07-18T16:23:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="SurveyCreationOperations(java.util.Map)[pri:15, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:36 IST" name="SurveyCreationOperations" data-provider="getData" finished-at="2022-07-18T16:23:46 IST" duration-ms="9971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{surveyContentTitle=Automation Survey, surveyContentDescription=Automation Survey description., surveyQuestionAdd=Rate the Course out of Five.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SurveyCreationOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:46 IST" name="endReport" finished-at="2022-07-18T16:23:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:46 IST" name="initApp" finished-at="2022-07-18T16:23:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:46 IST" name="startReport" finished-at="2022-07-18T16:23:46 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.SurveyCreationOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="SurveyCreationOperations(java.util.Map)[pri:15, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:46 IST" name="SurveyCreationOperations" data-provider="getData" finished-at="2022-07-18T16:23:57 IST" duration-ms="10133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{surveyContentTitle=Automation Facilitator Survey, surveyContentDescription=Automation Facilitator Survey description., surveyQuestionAdd=Rate the Facilitator out of Five.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SurveyCreationOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:57 IST" name="endReport" finished-at="2022-07-18T16:23:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:57 IST" name="startReport" finished-at="2022-07-18T16:23:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.CourseSettingsOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:57 IST" name="initApp" finished-at="2022-07-18T16:23:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="CourseSettingsOperations(java.util.Map)[pri:16, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:23:57 IST" name="CourseSettingsOperations" data-provider="getData" finished-at="2022-07-18T16:24:10 IST" duration-ms="13383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{courseShortDescription=This is an Automation course short Description, courseDescription=This is a Course Description of the Course., courseActualPrice=20}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CourseSettingsOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:24:10 IST" name="endReport" finished-at="2022-07-18T16:24:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:24:10 IST" name="initApp" finished-at="2022-07-18T16:24:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:24:10 IST" name="startReport" finished-at="2022-07-18T16:24:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.ActivateCourseOperations() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="ActivateCourseOperations()[pri:17, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:24:10 IST" name="ActivateCourseOperations" finished-at="2022-07-18T16:24:15 IST" duration-ms="5261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ActivateCourseOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:24:15 IST" name="endReport" finished-at="2022-07-18T16:24:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:24:15 IST" name="startReport" finished-at="2022-07-18T16:24:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mykademy.tests.MykademyTestSuite.DeleteCourseOperations(java.util.Map) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initApp()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:24:15 IST" name="initApp" finished-at="2022-07-18T16:24:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApp -->
+        <test-method signature="DeleteCourseOperations(java.util.Map)[pri:18, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:24:15 IST" name="DeleteCourseOperations" data-provider="getData" finished-at="2022-07-18T16:24:17 IST" duration-ms="1974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DeleteCourseOperations=Automation Custom Course 10.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCourseOperations -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:24:17 IST" name="endReport" finished-at="2022-07-18T16:24:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:24:17 IST" name="tearDown" finished-at="2022-07-18T16:24:18 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:mykademy.tests.MykademyTestSuite@7b324585]" started-at="2022-07-18T16:24:18 IST" name="endSuite" finished-at="2022-07-18T16:24:18 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- mykademy.tests.MykademyTestSuite -->
+    </test> <!-- smoke -->
+  </suite> <!-- Suite1 -->
+</testng-results>

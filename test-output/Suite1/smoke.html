@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  smoke</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>smoke</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 18 16:19:49 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>268 seconds (268701 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.courseCreationModuleOperations()'><b>courseCreationModuleOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {fileName=XLSX.xlsx, lectureTitle=New Document xlsx 1, lectureDescription=Automation xlsx File}</td>
+<td></td>
+<td>7</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.LiveClassCreationOperations()'><b>LiveClassCreationOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {liveLectureName=Live Session 1.0, liveSessionTag=AutomationTag One, liveSessionAgenda=Automation Test Live Agenda, liveSessionDescription=Automation session description}</td>
+<td></td>
+<td>9</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.CourseSettingsOperations()'><b>CourseSettingsOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {courseShortDescription=This is an Automation course short Description, courseDescription=This is a Course Description of the Course., courseActualPrice=20}</td>
+<td></td>
+<td>13</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.SurveyCreationOperations()'><b>SurveyCreationOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {surveyContentTitle=Automation Facilitator Survey, surveyContentDescription=Automation Facilitator Survey description., surveyQuestionAdd=Rate the Facilitator out of Five.}</td>
+<td></td>
+<td>10</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.courseCreationModuleFirstSteps()'><b>courseCreationModuleFirstSteps</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {courseName=Automation Custom Course 10.0, sectionName=New}</td>
+<td></td>
+<td>11</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.SurveyCreationOperations()'><b>SurveyCreationOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {surveyContentTitle=Automation Survey, surveyContentDescription=Automation Survey description., surveyQuestionAdd=Rate the Course out of Five.}</td>
+<td></td>
+<td>9</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.courseCreationModuleOperations()'><b>courseCreationModuleOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {fileName=MP3.mp3, lectureTitle=New Document Mp3 1, lectureDescription=Automation Mp3 File}</td>
+<td></td>
+<td>16</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.YouTubeCreationOperations()'><b>YouTubeCreationOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {youTubeContentTitle=Automation YouTube Lecture, youTubeContentDescription=Automation Youtube Video Lecture, enterYouTubeUrl=https://www.youtube.com/watch?v=mOAXEQevCAE}</td>
+<td></td>
+<td>4</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.DeleteCourseOperations()'><b>DeleteCourseOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {DeleteCourseOperations=Automation Custom Course 10.0}</td>
+<td></td>
+<td>1</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.AssessmentCreationOperations()'><b>AssessmentCreationOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {assessmentName=Automation Test 1, assessmentDescription=Automation assessment test 1, totalMarkForAssessment=10, submissionTestMessage=Thank You For Attending The Assessment, passMarkPercentage=10, passMessage=PASS, failMessage=FAIL, attemptLimitCount=2}</td>
+<td></td>
+<td>37</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.AssignmentCreationOperations()'><b>AssignmentCreationOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {assignmentName=Automation Assignment title, assignmentDescription=Automation Assignment description, assignmentTotalMark=30, assignmentWorldLimit=25000, resubmissionDateCount=2}</td>
+<td></td>
+<td>9</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.ActivateCourseOperations()'><b>ActivateCourseOperations</b><br>Test class: mykademy.tests.MykademyTestSuite</td>
+<td></td>
+<td>5</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.moveToLearnerModule()'><b>moveToLearnerModule</b><br>Test class: mykademy.tests.MykademyTestSuite</td>
+<td></td>
+<td>2</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.verifyLearnerAdd()'><b>verifyLearnerAdd</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {stdName=Jijo Joseph 6902, stdEmail=jijo.joseph+6902@mykademy.com, stdPhone=08988885479, stdPassword=Passowrd@123}</td>
+<td></td>
+<td>1</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.verifyLoginCheck()'><b>verifyLoginCheck</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {username=thanveer.a+25@enfintechnologies.com, password=123456ab}</td>
+<td></td>
+<td>3</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.roleManagementModule()'><b>roleManagementModule</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {roleName=New Test Role29}</td>
+<td></td>
+<td>18</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.verifyLearnerAdd()'><b>verifyLearnerAdd</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {stdName=Jijo Joseph 6901, stdEmail=jijo.joseph+6901@mykademy.com, stdPhone=08988885477, stdPassword=Passowrd@123}</td>
+<td></td>
+<td>1</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.ScormCreationOperations()'><b>ScormCreationOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {lectureNameFld=Automation Scorm Lecture, lectureDescriptionFld=Automation Scorm Lecture content}</td>
+<td></td>
+<td>23</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.courseCreationModuleOperations()'><b>courseCreationModuleOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {fileName=DOC.doc, lectureTitle=New Document Doc 1, lectureDescription=Automation Doc File}</td>
+<td></td>
+<td>8</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.HTMLCreationOperations()'><b>HTMLCreationOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {htmlContentTitle=Automation Html lecture 1, htmlContentDescription=Automation HTML lecture content description.}</td>
+<td></td>
+<td>6</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.courseCreationModuleOperations()'><b>courseCreationModuleOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {fileName=DOCX.docx, lectureTitle=New Document Docx 1, lectureDescription=Automation Docx File}</td>
+<td></td>
+<td>9</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.courseCreationModuleOperations()'><b>courseCreationModuleOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {fileName=Sample pdf.pdf, lectureTitle=New Document Pdf 1, lectureDescription=Automation Pdf File}</td>
+<td></td>
+<td>8</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.courseCreationModuleOperations()'><b>courseCreationModuleOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {fileName=EXCEL.xls, lectureTitle=New Document xls 1, lectureDescription=Automation xls File}</td>
+<td></td>
+<td>8</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.courseCreationModuleOperations()'><b>courseCreationModuleOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {fileName=pptx2.pptx, lectureTitle=New Document Pptx 1, lectureDescription=Automation Pptx File}</td>
+<td></td>
+<td>8</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.verifySignUpPage()'><b>verifySignUpPage</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {signUpUsername=Jijo Joseph 10, signUpEmail=jijo.joseph+10@mykademy.com, signUpPhoneNumber=8888899999, signUpPassword=Password@123}</td>
+<td></td>
+<td>5</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+<tr>
+<td title='mykademy.tests.MykademyTestSuite.OtherLearnerModuleOperations()'><b>OtherLearnerModuleOperations</b><br>Test class: mykademy.tests.MykademyTestSuite<br>Parameters: {searchUsers=Jijo Joseph 6902, Jijo Joseph 6901}</td>
+<td></td>
+<td>21</td>
+<td>mykademy.tests.MykademyTestSuite@7b324585</td></tr>
+</table><p>
+</body>
+</html>
